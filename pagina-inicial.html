@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="vinicius dos santos souza bastos">
+    <meta> <title> AOP2 </title>
+    <link rel="stylesheet" href="External.css">
+
+  </head>
+  <style>
+     
+     
+    *{text-align: center;}
+         .column {
+      float: left;
+      width: 30%;
+      padding: 10px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    a:link{color: blue;}
+    a:visited{color: black;}
+    </style>
+ 
+  <body>
+
+
+<body style="background-color:powderblue;">
+<h1 text-align: center>Blog Locais de Viagem</h1>
+
+<p>
+  Esse e um blog sobre locais que eu gostaria de viajar algum dia com imagens e descrições sobre 3 que são o Peru pais da américa do sul com belas vistas, Itália país europeu com uma grande cultura e culinária e o Japão um dos países mais avançados do mundo 
+
+ 
+</p><br>
+
+<nav>
+    <ul>
+      <a href="pagina-inicial.html">Página inicial</a><br>
+              <a href="Peru.html"> <span class="red">P</span><span class="white">er</span><span class="red">u</span></a><br>
+              <a href="Italia.html"><span class="green">It</span><span class="white">ál</span><span class="red">ia</span></a><br>
+              <a href="Japão.html"><span class="white">J</span><span class="red">apã</span><span class="white">o</span></a><br>
+              <a href="Contato.html">Contato</a><br>
+    </ul>
+  </nav>
+  
+  <P>Você pode entrar na pagina de um pais tanto pelo link acima ou clickando em uma das bandeiras abaixo</P><br>
+
+  <div class="row">
+  <div class="column"><a href="Peru.html"><img src="/AOP2/image/bandeira peru.png" alt="Peru.html" width="425" height="425"></a>Bandeira do Peru</div>
+  <div class="column"><a href="Italia.html"><img src="/AOP2/image/bandeira-italia.png" alt="Italia.html" width="425" height="425"></a>Bandeira da Italia</div>
+  <div class="column"><a href="Japão.html"><img src="/AOP2/image/bandeira-do-japao.webp" alt="Japão.html" width="425" height="425"></a>Bandeira do Japão</div>
+  
+</div>
+
+
+  
+    
+</body>

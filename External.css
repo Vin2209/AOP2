@@ -1,0 +1,24 @@
+/*comentario*/
+
+    *{text-align: center;}
+    hr{width:50% }
+    
+    .red{background-color: red;}
+    .white{background-color: white;}
+    .yellow{background-color: yellow;}
+    .blue{background-color: skyblue;}
+    .green{background-color:  green;}
+    q.black{background-color: black;}
+    .blue2 { background-color: skyblue; font-size: xx-small;}
+    .cinza {color: gray;}
+    .branco {color: white;}
+    #ultraass {background-color: blueviolet;}
+    .label {color: white; font: bold xx-large lucida;
+    border: solid black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    }
+    
+    
